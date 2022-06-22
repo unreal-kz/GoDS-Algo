@@ -79,8 +79,16 @@ func main() {
 	}
 
 	test.AddEdge(1, 2)
+	test.AddEdge(2, 1)
 	test.AddEdge(1, 6)
 	test.AddEdge(3, 2)
+
+	test.AddEdge(1, 2)
+	test.AddEdge(1, 2)
+
+	test.AddEdge(4, 4)
+	test.AddEdge(2, 2)
+	test.AddEdge(2, 2)
 
 	test.Print()
 }
